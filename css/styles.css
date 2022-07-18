@@ -1,0 +1,194 @@
+:root {
+  --main-color-first: #212121;
+  --main-color-second: #ffffff;
+  --main-color-third: #000000;
+
+  --brand-color-first: #2196f3;
+  --brand-color-second: #2f303a;
+  --brand-color-third: #757575;
+  --brand-color-fourth: #f5f4fa;
+  --brand-color-sixth: rgba(255, 255, 255, 0.6);
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1600px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color-first);
+}
+
+.header-section {
+  display: inline;
+}
+
+.website-logo-header {
+  font-family: "Raleway", sans-serif;
+  color: var(--main-color-third);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  padding-left: 215px;
+}
+
+.website-logo-footer {
+  font-family: "Raleway", sans-serif;
+  color: var(--main-color-second);
+  text-decoration: none;
+}
+
+.website-logo-highlight {
+  color: var(--brand-color-first);
+}
+
+.navigation-section {
+  margin-left: 93px;
+  margin-right: 371px;
+}
+
+.navigation-link {
+  color: var(--main-color-first);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  margin-left: 46px;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--brand-color-first);
+}
+
+.contact-info-header {
+  color: var(--brand-color-third);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.contact-info-header:hover,
+.contact-info-header:focus {
+  color: var(--brand-color-first);
+}
+
+.main-header {
+  background-color: var(--brand-color-second);
+}
+
+.header-text {
+  color: var(--main-color-second);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.header-button {
+  color: var(--main-color-second);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  background-color: var(--brand-color-first);
+  cursor: pointer;
+}
+
+.lorem-list-header {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.lorem-list {
+  color: var(--brand-color-third);
+  font-size: 14px;
+  line-height: 1.71;
+  width: 270px;
+  height: 75px;
+}
+
+.occupation-header {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.employees-section {
+  background-color: var(--brand-color-fourth);
+}
+
+.employees-header {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.employee-position {
+  color: var(--brand-color-third);
+  font-size: 16px;
+}
+
+.footer-section {
+  background-color: var(--brand-color-second);
+}
+
+.studio-address {
+  color: var(--main-color-second);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.contact-info-footer {
+  color: var(--brand-color-sixth);
+
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.contact-info-footer:hover,
+.contact-info-footer:focus {
+  color: var(--brand-color-first);
+}
+.filter-button {
+  color: var(--main-color-first);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--brand-color-fourth);
+  border: 0;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  color: var(--main-color-second);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--brand-color-first);
+  border: 0;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.project-filter-name {
+  color: var(--brand-color-third);
+  font-size: 16px;
+  line-height: 1.88;
+}
